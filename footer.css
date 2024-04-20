@@ -1,0 +1,411 @@
+/* This is the theme of the hole website */
+
+*{
+    font-family: 'Inter' , sans-serif;
+}
+
+
+.text-color-tertiary{
+    color: var(--tertiary-color);
+}
+.text-color-primary{
+    color: var(--primary-color);
+}
+
+.text-color-white{
+    color: var(--white-color)!important;
+}
+
+.text-color-dark-gray{
+    color: var(--dark-gray-color);
+}
+
+.selected{
+    color: var(--black-color)!important;
+}
+
+.information:hover{
+    color: var(--black-color)!important;
+}
+.text-bg-primary{
+    color: var(--black-color)!important;
+    background-color: var(--primary-color)!important;
+}
+
+input{
+    outline: 0;
+}
+
+.tag{
+    font-size: var(--heading6-font-size);
+    font-weight: var(--heading6-font-weight);
+    color: rgb(255, 255, 255)!important;
+
+}
+/* reuse this color template in ejs template engine */
+:root {
+    --primary-color: #FFD93D;
+    --primary-color-lighter: #FFE477;
+    --primary-color-darker: #FFD21B;
+    --secondary-color: #4D96FF;
+    --tertiary-color: #FF6B6B;
+    /* Monochrome */
+    --white-color: #FAFAFA;
+    --light-gray-color: #f2f2f2;
+    --gray-color: #E3E3E3;
+    --dark-gray-color: #B2B2B2;
+    --black-color: #323232;
+    --heading1-font-size: 48px;
+    --heading1-font-weight: 600;
+    --heading2-font-size: 36px;
+    --heading2-font-weight: 600;
+    --heading3-font-size: 24px;
+    --heading3-font-weight: 600;
+    --heading4-font-size: 20px;
+    --heading4-font-weight: 600;
+    --heading5-font-size: 16px;
+    --heading5-font-weight: 600;
+    --heading6-font-size: 14px;
+    --heading6-font-weight: 600;
+    --paragraph-font-size: 20px;
+    --paragraph-font-weight: 400;
+}
+/* Heading style */
+h1 {
+    font-size: var(--heading1-font-size)!important;
+    font-weight: var(--heading1-font-weight)!important;
+}
+
+h2 {
+    font-size: var(--heading2-font-size);
+    font-weight: var(--heading2-font-weight)!important;
+}
+
+h3 {
+    font-size: var(--heading3-font-size);
+    font-weight: var(--heading3-font-weight)!important;
+}
+
+h4 {
+    font-size: var(--heading4-font-size);
+    font-weight: var(--heading4-font-weight)!important;
+}
+
+h5 {
+    font-size: var(--heading5-font-size);
+    font-weight: var(--heading5-font-weight)!important;
+}
+
+h6 {
+    font-size: var(--heading6-font-size);
+    font-weight: var(--heading6-font-weight)!important;
+}
+
+
+.btn {
+    border-radius: 23px;
+    /* height: 46px; */
+    width: auto;
+    padding: 11px 34px;
+    font-size: var(--heading5-font-size);
+    font-weight: var(--heading5-font-weight)!important;
+}
+Button style
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: var(--black-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-color-lighter);
+    border-color: var(--primary-color-lighter);
+    color: var(--black-color);
+
+}
+
+.btn-primary:active {
+    background-color: var(--primary-color-darker) !important;
+    border-color: var(--primary-color-darker) !important;
+    color: var(--black-color) !important;
+
+}
+
+.btn-outline-primary {
+    background-color: var(--white-color);
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--white-color);
+    border-color: var(--primary-color-lighter);
+    color: var(--primary-color);
+}
+
+.btn-outline-primary:active {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+    color: var(--white-color) !important;
+}
+
+.btn-light {
+    background-color: var(--light-gray-color) !important;
+    color: var(--black-color);
+}
+
+.btn-light:hover {
+    background-color: var(--dark-gray-color) !important;
+    border-color: var(--dark-gray-color) !important;
+    color: var(--black-color);
+
+}
+
+.btn-light:active {
+    background-color: var(--gray-color) !important;
+    border-color: var(--gray-color) !important;
+    color: var(--black-color) !important;
+
+}
+/* focus */
+.btn:focus-visible {
+    color: var(--bs-btn-hover-color);
+    background-color: var(--primary-color)!important;
+    border-color: var(--primary-color-darker)!important;
+    outline: 0;
+    box-shadow: var(--primary-color-lighter)!important;
+}
+/* Navlink style */
+/* Link style */
+/* Selecty amount button */
+.amount-box{
+    border-radius: 23px!important;
+    background-color: var(--dark-gray-color);
+    width: 180px;
+    height:48px;
+}
+
+input.product-amount {
+    font-size: var(--heading5-font-size);
+    font-weight: var(--heading5-font-weight);
+    background: var(--light-gray-color);
+}
+
+input.product-amount:focus {
+    background: var(--light-gray-color);
+    outline: none;
+}
+
+
+.amount-box .change-value{
+    background: var(--light-gray-color);
+    font-size: var(--heading5-font-size);
+    font-weight: var(--heading5-font-weight);
+}
+
+.amount-box .change-value:hover{
+    cursor: pointer;
+}
+
+
+/* Checkbox */
+/* Ratio */
+.form-check-input:checked{
+    background-color: var(--primary-color)!important;
+    border: var(--primary-color)!important;
+    border-radius: 50%;
+}
+.form-check-input{
+    border: 1px solid var(--primary-color);
+}
+/* Switch */
+/* Input */
+.input-box {
+    height: 46px;
+    border-radius: 23px;
+    background-color: var(--light-gray-color);
+    border: 1px solid var(--light-gray-color);
+    color: var(--dark-gray-color);
+}
+
+
+/* Background */
+.bg-light{
+    background-color: var(--light-gray-color) !important;
+}
+/* Chips */
+/* Progress bar */
+/* Floating action button */
+/* Dropdown */
+
+/* Breadcrumb */
+
+.breadcrumb-item > a {
+    color: var(--dark-gray-color)
+}
+
+.breadcrumb-item.active{
+    color: var(--primary-color)
+}
+
+li.breadcrumb-item > a:hover{
+    color: var(--black-color)!important;
+}
+
+/* Login Page */
+
+.show-hidden-icon{
+    border-radius: 23px;
+    top: 7px
+}
+
+.show-hidden-icon:hover{
+    cursor: pointer;
+}
+
+
+/* Footer */
+footer{
+    background-color: var(--black-color);
+    color: var(--white-color)!  important;
+}
+
+.footer-icon{
+    color: var(--primary-color);
+}
+/* limit number of lines at 2 */
+.short-description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+ }
+
+ .range-price {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* number of lines to show */
+    -webkit-box-orient: vertical;
+ }
+
+.hover-bigger:hover {
+    /* -webkit-transform: scale(1.1); */
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.hover-bigger {
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+a {
+    color: var(--black-color)!important; 
+    text-decoration: none!important;
+}
+
+a:hover {
+    color: var(--black-color) !important; 
+    text-decoration:none !important; 
+    cursor:pointer !important;  
+}
+.fade-in {
+    animation: fadein 2s;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein {
+    /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein {
+    /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein {
+    /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.available-hover:hover{
+    cursor: pointer;
+}
+
+/* Wishlist + Cart */
+
+.remove-item-list{
+    background-color: var(--tertiary-color);
+}
+
+
+.action-icon{
+    border-radius: 23px;
+    padding: 11px 14px;
+    font-size:24px;
+    transition: transform .2s; 
+}
+
+.action-icon:hover{
+    cursor: pointer;
+}
+
+
+#cart .btn.disabled{
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.remove-icon:hover{
+    cursor: pointer;
+}
+/* Responsive UI mobile */
+@media screen and (max-width: 1199px) {
+    .status-mobile{
+        border-radius: 16px;
+        padding: 0 10px;
+        padding-top: 5px;
+    }
+    .logo {
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+
+}
+
+
+/* Responsive UI screen between 1200px to 1400px */
+
+
+@media screen and (max-width: 1399px) {
+/* footer .element{
+        border-bottom: 1px solid var(--dark-gray-color)!important;
+    } */
+}
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    display: none;
+  }
