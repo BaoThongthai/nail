@@ -1,11 +1,11 @@
 window.addEventListener('DOMContentLoaded', () => {
-    const folderPath = 'phukienganmong/';
+    const folderPath = 'Phukienganmong/';
     const productsRow = document.getElementById('phukienganmong');
     const toggleBtn = document.getElementById('toggleBtn_phukienganmong');
     let showAllProducts = false;
 
     // Đường dẫn đến tập tin JSON chứa danh sách tên tệp ảnh
-    const jsonFilePath = 'phukienganmong/phukienganmong.json';
+    const jsonFilePath = 'Phukienganmong/phukienganmong.json';
 
     // Sự kiện click cho nút "Xem thêm" hoặc "Thu gọn"
     toggleBtn.addEventListener('click', () => {
