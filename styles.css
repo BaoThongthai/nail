@@ -29,6 +29,20 @@
 }
 
 
+@media (max-width: 575.98px) {
+  .col-sm-6 {
+      flex: 0 0 50%;
+      max-width: 50%;
+  }
+
+  .card-title {
+      font-size: 0.8em; /* Điều chỉnh kích thước chữ cho card title */
+  }
+}
+
+
+
+
 /*Begin border và hover hình ảnh */
 .card {
     position: relative;
