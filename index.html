@@ -21,312 +21,387 @@
 
 
 
-  <div id="demo" class="carousel slide" data-bs-ride="carousel" style="padding-top: 75px;">
+    <div id="demo" class="carousel slide" data-bs-ride="carousel" style="padding-top: 75px;">
 
-    <!-- Indicators/dots -->
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active" aria-current="true"
-        aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img_bg/Photoroom-20240417_081316.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img_bg/Photoroom-20240417_072700.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
     </div>
-
-    <!-- The slideshow/carousel -->
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="img_bg/Photoroom-20240417_081316.png" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="img_bg/Photoroom-20240417_072700.png" class="d-block w-100" alt="...">
-      </div>
-    </div>
-
-    <!-- Left and right controls/icons -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-
-  </div>
-  <nav class="navbar navbar-expand-lg" style="position:fixed; background-color: rgb(246, 255, 0);" >
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="logo.png" alt=""
-          style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; margin: 0; padding: 0;">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="#" style="color: black; font-size: 20px; text-decoration: none;" onmouseover="this.style.color='blue'; this.style.cursor='pointer';" onmouseout="this.style.color='black';">
-                <img src="img_bg/home.png" alt="home" style="width: 30px; height: 30px; margin-right: 5px;"> Home
+    <nav class="navbar navbar-expand-lg" style="position:fixed; background-color: rgb(246, 255, 0);">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" alt=""
+                     style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; margin: 0; padding: 0;">
             </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#" style="color: black; font-size: 20px; text-decoration: none;" onmouseover="this.style.color='blue'; this.style.cursor='pointer';" onmouseout="this.style.color='black';">
-              <img src="img_bg/vanchuyen.png" alt="product" 
-              style="width: 30px; height: 30px; margin-right: 5px;"> Transport
-          </a>
-      </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#" style="color: black; font-size: 20px; text-decoration: none;" onmouseover="this.style.color='blue'; this.style.cursor='pointer';" onmouseout="this.style.color='black';">
-              <img src="img_bg/cart.png" alt="product" 
-              style="width: 30px; height: 30px; margin-right: 5px;"> Pay
-          </a>
-      </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="thongtinhangngay.html" id="navbarDropdown" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false"
-              style="color: black;font-size: 20px; text-decoration: none;"
-              onmouseover="this.style.color='blue'; this.style.cursor='pointer';"
-              onmouseout="this.style.color='black';">
-              <img src="img_bg/product.png" alt="product" 
-              style="width: 30px; height: 30px; margin-right: 5px;">
-              Product</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: black; font-size: 20px; text-decoration: none;" onmouseover="this.style.color='blue'; this.style.cursor='pointer';" onmouseout="this.style.color='black';">
+                            <img src="img_bg/home.png" alt="home" style="width: 30px; height: 30px; margin-right: 5px;"> Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: black; font-size: 20px; text-decoration: none;" onmouseover="this.style.color='blue'; this.style.cursor='pointer';" onmouseout="this.style.color='black';">
+                            <img src="img_bg/vanchuyen.png" alt="product"
+                                 style="width: 30px; height: 30px; margin-right: 5px;"> Transport
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: black; font-size: 20px; text-decoration: none;" onmouseover="this.style.color='blue'; this.style.cursor='pointer';" onmouseout="this.style.color='black';">
+                            <img src="img_bg/cart.png" alt="product"
+                                 style="width: 30px; height: 30px; margin-right: 5px;"> Pay
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="thongtinhangngay.html" id="navbarDropdown" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false"
+                           style="color: black;font-size: 20px; text-decoration: none;"
+                           onmouseover="this.style.color='blue'; this.style.cursor='pointer';"
+                           onmouseout="this.style.color='black';">
+                            <img src="img_bg/product.png" alt="product"
+                                 style="width: 30px; height: 30px; margin-right: 5px;">
+                            Product
+                        </a>
 
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li>
-                <a class="dropdown-item" href="thongtinhangngay.html" style="color: black; text-decoration: none;"
-                  onmouseover="this.style.color='blue'; this.style.cursor='pointer';"
-                  onmouseout="this.style.color='black';">
-                  <img src="img_bg/mongtay.png" alt="product" 
-                  style="width: 30px; height: 30px; margin-right: 5px;">
-                  Nail</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a class="dropdown-item" href="thongtinhangngay.html" style="color: black; text-decoration: none;"
+                                   onmouseover="this.style.color='blue'; this.style.cursor='pointer';"
+                                   onmouseout="this.style.color='black';">
+                                    <img src="img_bg/mongtay.png" alt="product"
+                                         style="width: 30px; height: 30px; margin-right: 5px;">
+                                    Nail
+                                </a>
 
-              </li>
-              <li>
-                <a class="dropdown-item" href="#tintucvasukien" style="color: black; text-decoration: none;"
-                  onmouseover="this.style.color='blue'; this.style.cursor='pointer';"
-                  onmouseout="this.style.color='black';">
-                  <img src="img_bg/songmongtay.png" alt="product" 
-                  style="width: 30px; height: 30px; margin-right: 5px;">
-                  Nail polish</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#tintucvasukien" style="color: black; text-decoration: none;"
-                  onmouseover="this.style.color='blue'; this.style.cursor='pointer';"
-                  onmouseout="this.style.color='black';">
-                  <img src="img_bg/get.png" alt="product" 
-                  style="width: 30px; height: 30px; margin-right: 5px;">Get</a>
-              </li>
-            </ul>
-          </li>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#tintucvasukien" style="color: black; text-decoration: none;"
+                                   onmouseover="this.style.color='blue'; this.style.cursor='pointer';"
+                                   onmouseout="this.style.color='black';">
+                                    <img src="img_bg/songmongtay.png" alt="product"
+                                         style="width: 30px; height: 30px; margin-right: 5px;">
+                                    Nail polish
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#tintucvasukien" style="color: black; text-decoration: none;"
+                                   onmouseover="this.style.color='blue'; this.style.cursor='pointer';"
+                                   onmouseout="this.style.color='black';">
+                                    <img src="img_bg/get.png" alt="product"
+                                         style="width: 30px; height: 30px; margin-right: 5px;">Get
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
 
 
 
-        </ul>
-      </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <br>
+        <h4 class="red-title" style="text-align: center;">CATALOG</h4>
+        <hr>
     </div>
-  </nav>
+    <!-- Mirror Nails  -->
+    <div class="container">
+        <h4 class="red-title">Mirror Nails </h4>
 
-  <div class="container">
+    </div>
+    <!-- Phần hiển thị sản phẩm -->
+    <div class="container">
+        <div class="row" id="productsRow">
+            <!-- Dữ liệu sản phẩm sẽ được thêm vào đây bằng JavaScript -->
+        </div>
+        <div class="text-center mt-4 sm-2">
+            <button id="toggleBtn" class="btn btn-warning blink">See more</button>
+
+        </div>
+    </div>
     <br>
-    <h4 class="red-title" style="text-align: center;">CATALOG</h4>
-    <hr>
-  </div>
-  <!-- Mirror Nails  -->
-  <div class="container">
-    <h4 class="red-title">Mirror Nails </h4>
 
-  </div>
-  <!-- Phần hiển thị sản phẩm -->
-  <div class="container">
-    <div class="row" id="productsRow">
-      <!-- Dữ liệu sản phẩm sẽ được thêm vào đây bằng JavaScript -->
-    </div>
-    <div class="text-center mt-4 sm-2">
-      <button id="toggleBtn" class="btn btn-warning blink">See more</button>
+
+
+    <!-- Nails (box)  -->
+    <div class="container">
+        <h4 class="red-title"> Nails (box) </h4>
 
     </div>
-  </div>
-  <br>
+    <!-- Phần hiển thị sản phẩm -->
+    <div class="container">
+        <div class="row" id="Nailtiephop">
+            <!-- Dữ liệu sản phẩm sẽ được thêm vào đây bằng JavaScript -->
+        </div>
+        <div class="text-center mt-4 sm-2">
+            <button id="toggleBtn_Nailtiephop" class="btn btn-warning blink">See more</button>
 
-
-
-  <!-- Nails (box)  -->
-  <div class="container">
-    <h4 class="red-title"> Nails (box) </h4>
-
-  </div>
-  <!-- Phần hiển thị sản phẩm -->
-  <div class="container">
-    <div class="row" id="Nailtiephop">
-      <!-- Dữ liệu sản phẩm sẽ được thêm vào đây bằng JavaScript -->
+        </div>
     </div>
-    <div class="text-center mt-4 sm-2">
-      <button id="toggleBtn_Nailtiephop" class="btn btn-warning blink">See more</button>
+    <br>
+
+    <!-- MÓNG TAY TRONG -->
+    <div class="container">
+        <h4 class="red-title"> Transparent nails </h4>
 
     </div>
-  </div>
-  <br>
+    <!-- Phần hiển thị sản phẩm -->
+    <div class="container">
+        <div class="row" id="mongtaytrong">
+            <!-- Dữ liệu sản phẩm sẽ được thêm vào đây bằng JavaScript -->
+        </div>
+        <div class="text-center mt-4 sm-2">
+            <button id="toggleBtn_mongtaytrong" class="btn btn-warning blink">See more</button>
 
-  <!-- MÓNG TAY TRONG -->
-  <div class="container">
-    <h4 class="red-title"> Transparent nails </h4>
-
-  </div>
-  <!-- Phần hiển thị sản phẩm -->
-  <div class="container">
-    <div class="row" id="mongtaytrong">
-      <!-- Dữ liệu sản phẩm sẽ được thêm vào đây bằng JavaScript -->
+        </div>
     </div>
-    <div class="text-center mt-4 sm-2">
-      <button id="toggleBtn_mongtaytrong" class="btn btn-warning blink">See more</button>
-
-    </div>
-  </div>
 
 
 
-  <!-- Sơn Móng Tay -->
-  <div class="container">
-    <h4 class="red-title">Nail polish</h4>
-
-  </div>
-  <!-- Phần hiển thị sản phẩm -->
-  <div class="container">
-    <div class="row" id="sonmongtay">
-      <!-- Dữ liệu sản phẩm sẽ được thêm vào đây bằng JavaScript -->
-    </div>
-    <div class="text-center mt-4 sm-2">
-      <button id="toggleBtn_sonmongtay" class="btn btn-warning blink">See more</button>
+    <!-- Sơn Móng Tay -->
+    <div class="container">
+        <h4 class="red-title">Vinmay Nail Polish and other types</h4>
 
     </div>
-  </div>
+    <!-- Phần hiển thị sản phẩm -->
+    <div class="container">
+        <div class="row" id="sonmongtay">
+            <!-- Dữ liệu sản phẩm sẽ được thêm vào đây bằng JavaScript -->
+        </div>
+        <div class="text-center mt-4 sm-2">
+            <button id="toggleBtn_sonmongtay" class="btn btn-warning blink">See more</button>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <h4 class="red-title">Aifer Nail Polish & ZhiYaYa Nail Polish </h4>
+
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-6 mb-4">
+                <!-- Đổi col-md-3 thành col-md-4 để chia đều thành 3 cột -->
+                <div class="card">
+                    <a href="AiferpolishvsZhiYaYapolish.html">
+                        <img src="aiferpolish/ai5.jpg" style="cursor: pointer;" class="card-img-top"
+                            >
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title"> <a href="AiferpolishvsZhiYaYapolish.html">Aiferpolish (click here)</a> </h5>
+                        <!-- Bạn có thể thêm mô tả cho mỗi ảnh nếu cần -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-6 mb-4">
+                <!-- Đổi col-md-3 thành col-md-4 để chia đều thành 3 cột -->
+                <div class="card">
+                    <a href="AiferpolishvsZhiYaYapolish.html">
+                        <img src="ZhiYaYapolish/zhiyaya.jpg" style="cursor: pointer;" class="card-img-top"
+                             alt="ZhiYaYapolish">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title"> <a href="AiferpolishvsZhiYaYapolish.html">ZhiYaYapolish (click here)</a> </h5>
+                        <!-- Bạn có thể thêm mô tả cho mỗi ảnh nếu cần -->
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="text-center mt-4 sm-2">
+                <button id="toggleBtn_cove" class="btn btn-warning blink"> <a href="CacLoaiGet.html">See more</a></button>
+
+            </div>
+        </div>
+
+    </div>
 
 
     <!-- Phụ kiện làm móng -->
     <div class="container">
-      <h4 class="red-title">Nail attachment accessories</h4>
-  
+        <h4 class="red-title">Nail attachment accessories</h4>
+
     </div>
     <!-- Phần hiển thị sản phẩm -->
     <div class="container">
-      <div class="row" id="phukienganmong">
-        <!-- Dữ liệu sản phẩm sẽ được thêm vào đây bằng JavaScript -->
-      </div>
-      <div class="text-center mt-4 sm-2">
-        <button id="toggleBtn_phukienganmong" class="btn btn-warning blink">See more</button>
-  
-      </div>
-    </div>
-  <br>
-
-
-
-
-  <!-- Máy Hơ Mặt Trời (Sun) -->
-
-  <div class="container">
-    <h4 class="red-title">Sunlight heater</h4>
-
-    <div class="row">
-      <div class="col-md-4 mb-4"> <!-- Đổi col-md-3 thành col-md-4 để chia đều thành 3 cột -->
-        <div class="card">
-          <img src="may_ho_sun/mhs1.jpg" class="card-img-top" alt="${imageName}">
+        <div class="row" id="phukienganmong">
+            <!-- Dữ liệu sản phẩm sẽ được thêm vào đây bằng JavaScript -->
         </div>
-      </div>
-      <div class="col-md-4 mb-4"> <!-- Đổi col-md-3 thành col-md-4 để chia đều thành 3 cột -->
-        <div class="card">
-          <img src="may_ho_sun/mhs2.jpg" class="card-img-top" alt="${imageName}">
+        <div class="text-center mt-4 sm-2">
+            <button id="toggleBtn_phukienganmong" class="btn btn-warning blink">See more</button>
+
         </div>
-      </div>
-      <div class="col-md-4 mb-4"> <!-- Đổi col-md-3 thành col-md-4 để chia đều thành 3 cột -->
-        <div class="card">
-          <img src="may_ho_sun/mhs3.jpg" class="card-img-top" alt="${imageName}">
+    </div>
+    <br>
+
+
+
+
+    <!-- Máy Hơ Mặt Trời (Sun) -->
+
+    <div class="container">
+        <h4 class="red-title">Sunlight heater</h4>
+
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <!-- Đổi col-md-3 thành col-md-4 để chia đều thành 3 cột -->
+                <div class="card">
+                    <img src="may_ho_sun/mhs1.jpg" class="card-img-top" alt="${imageName}">
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <!-- Đổi col-md-3 thành col-md-4 để chia đều thành 3 cột -->
+                <div class="card">
+                    <img src="may_ho_sun/mhs2.jpg" class="card-img-top" alt="${imageName}">
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <!-- Đổi col-md-3 thành col-md-4 để chia đều thành 3 cột -->
+                <div class="card">
+                    <img src="may_ho_sun/mhs3.jpg" class="card-img-top" alt="${imageName}">
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-
-  </div>
-
-  <!-- Cọ Vẽ -->
-  <div class="container">
-    <h4 class="red-title">
-      Brush painting</h4>
-
-  </div>
-  <!-- Phần hiển thị sản phẩm -->
-  <div class="container">
-    <div class="row" id="Co_ve">
-      <!-- Dữ liệu sản phẩm sẽ được thêm vào đây bằng JavaScript -->
-    </div>
-    <div class="text-center mt-4 sm-2">
-      <button id="toggleBtn_cove" class="btn btn-warning blink">See more</button>
 
     </div>
-  </div>
-  <br>
 
-  <!-- Các loại get  -->
+    <!-- Cọ Vẽ -->
+    <div class="container">
+        <h4 class="red-title">
+            Brush painting
+        </h4>
 
-  <div class="container">
-    <h4 class="red-title">Get Nail</h4>
-
-    <div class="row">
-      <div class="col-md-4 col-sm-6 col-xs-6 mb-4"> <!-- Đổi col-md-3 thành col-md-4 để chia đều thành 3 cột -->
-        <div class="card">
-          <a href="CacLoaiGet.html"><img src="img_bg/get_phat_sang.jpg" style="cursor: pointer;" class="card-img-top"
-              alt="${imageName}"></a>
-          <div class="card-body">
-            <h5 class="card-title"> <a href="CacLoaiGet.html">GET GLOW (click here)</a> </h5>
-            <!-- Bạn có thể thêm mô tả cho mỗi ảnh nếu cần -->
-          </div>
+    </div>
+    <!-- Phần hiển thị sản phẩm -->
+    <div class="container">
+        <div class="row" id="Co_ve">
+            <!-- Dữ liệu sản phẩm sẽ được thêm vào đây bằng JavaScript -->
         </div>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-6 mb-4"> <!-- Đổi col-md-3 thành col-md-4 để chia đều thành 3 cột -->
-        <div class="card">
-          <a href="CacLoaiGet.html"><img src="img_bg/getgom.jpg" style="cursor: pointer;" class="card-img-top"
-              alt="${imageName}"></a>
-          <div class="card-body">
-            <h5 class="card-title"> <a href="CacLoaiGet.html">GET COLLECTION (click here)</a> </h5>
-            <!-- Bạn có thể thêm mô tả cho mỗi ảnh nếu cần -->
-          </div>
+        <div class="text-center mt-4 sm-2">
+            <button id="toggleBtn_cove" class="btn btn-warning blink">See more</button>
+
         </div>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-6 mb-4"> <!-- Đổi col-md-3 thành col-md-4 để chia đều thành 3 cột -->
-        <div class="card">
-          <a href="CacLoaiGet.html"><img src="img_bg/kimtuyen.jpg" class="card-img-top" alt="${imageName}"></a>
-          <div class="card-body">
-            <a href="CacLoaiGet.html">
-              <h5 class="card-title"> GET NEKT (click here) </h5>
-            </a>
-            <!-- Bạn có thể thêm mô tả cho mỗi ảnh nếu cần -->
-          </div>
+    </div>
+    <br>
+
+    <!-- nail polish bottles -->
+    <div class="container">
+        <h4 class="red-title">
+            Nail polish bottles
+        </h4>
+
+    </div>
+    <!-- Phần hiển thị sản phẩm -->
+    <div class="container">
+        <div class="row" id="vochai">
+            <!-- Dữ liệu sản phẩm sẽ được thêm vào đây bằng JavaScript -->
         </div>
-      </div>
+        <div class="text-center mt-4 sm-2">
+            <button id="toggleBtn_vochai" class="btn btn-warning blink">See more</button>
 
-      <div class="text-center mt-4 sm-2">
-        <button id="toggleBtn_cove" class="btn btn-warning blink"> <a href="CacLoaiGet.html">See more</a></button>
+        </div>
+    </div>
+    <br>
 
-      </div>
+    <!-- Các loại get  -->
+
+    <div class="container">
+        <h4 class="red-title">Get Nail</h4>
+
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-6 mb-4">
+                <!-- Đổi col-md-3 thành col-md-4 để chia đều thành 3 cột -->
+                <div class="card">
+                    <a href="CacLoaiGet.html">
+                        <img src="img_bg/get_phat_sang.jpg" style="cursor: pointer;" class="card-img-top"
+                             alt="${imageName}">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title"> <a href="CacLoaiGet.html">GET GLOW (click here)</a> </h5>
+                        <!-- Bạn có thể thêm mô tả cho mỗi ảnh nếu cần -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-6 mb-4">
+                <!-- Đổi col-md-3 thành col-md-4 để chia đều thành 3 cột -->
+                <div class="card">
+                    <a href="CacLoaiGet.html">
+                        <img src="img_bg/getgom.jpg" style="cursor: pointer;" class="card-img-top"
+                             alt="${imageName}">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title"> <a href="CacLoaiGet.html">GET COLLECTION (click here)</a> </h5>
+                        <!-- Bạn có thể thêm mô tả cho mỗi ảnh nếu cần -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-6 mb-4">
+                <!-- Đổi col-md-3 thành col-md-4 để chia đều thành 3 cột -->
+                <div class="card">
+                    <a href="CacLoaiGet.html"><img src="img_bg/kimtuyen.jpg" class="card-img-top" alt="${imageName}"></a>
+                    <div class="card-body">
+                        <a href="CacLoaiGet.html">
+                            <h5 class="card-title"> GET NEKT (click here) </h5>
+                        </a>
+                        <!-- Bạn có thể thêm mô tả cho mỗi ảnh nếu cần -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-4 sm-2">
+                <button id="toggleBtn_cove" class="btn btn-warning blink"> <a href="CacLoaiGet.html">See more</a></button>
+
+            </div>
+        </div>
+
     </div>
 
-  </div>
 
 
+    <!-- Nước tảy trang -->
+    <div class="container">
+        <h4 class="red-title">Nail polish remover</h4>
 
-  <!-- Nước tảy trang -->
-  <div class="container">
-    <h4 class="red-title">Nail polish remover</h4>
-
-  </div>
-  <!-- Phần hiển thị sản phẩm -->
-  <div class="container">
-    <div class="row" id="remove">
-      <!-- Dữ liệu sản phẩm sẽ được thêm vào đây bằng JavaScript -->
     </div>
-    <div class="text-center mt-4 sm-2">
-      <button id="toggleBtn_remove" class="btn btn-warning blink">See more</button>
+
+    <!-- Nước tảy trang -->
+    <div class="container">
+        <div class="row" id="remove">
+            <!-- Dữ liệu sản phẩm sẽ được thêm vào đây bằng JavaScript -->
+        </div>
+        <div class="text-center mt-4 sm-2">
+            <button id="toggleBtn_remove" class="btn btn-warning blink">See more</button>
+        </div>
     </div>
-  </div>
-  <br>
+    <br>
 
 
 
@@ -337,57 +412,56 @@
     <div class="contact-form">
       <h2>Liên Hệ</h2>
       <form id="contactForm">
-        <input type="text" id="name" placeholder="Họ và tên" required><br>
-        <input type="email" id="email" placeholder="Email" required><br>
-        <textarea id="message" placeholder="Nội dung tin nhắn" required></textarea><br>
+        <input type="text" name="name" placeholder="Họ và tên" required><br>
+        <input type="email" name="email" placeholder="Email" required><br>
+        <textarea name="message" placeholder="Nội dung tin nhắn" required></textarea><br>
         <input type="submit" value="Gửi">
       </form>
     </div>
   </div>
 
 
-  <!-- Footer -->
-  <footer class="text-center text-lg-start">
-    <!-- Section: Links  -->
-    <section class="">
-      <div class="container text-center text-xxl-start pt-5">
-        <!-- Grid row -->
-        <div class="row mt-4">
-          <!-- Grid column -->
-          <div class="col-xxl-3 col-md-6 mx-auto  pb-2 mb-4 element">
-            <!-- Content -->
-            <h3 class="text-uppercase fw-bold mb-4">
-              Phụ Kiện Ngành Móng
-            </h3>
-            <table style="color: var(--white-color)!  important;">
-              <tbody>
-                <tr>
-                  <td> <i data-feather="map-pin" class="p-2 footer-icon feather-46"></i></td>
-                  <td><span class="text align-middle">Chi Nhánh Campuchia</span></td>
+    <!-- Footer -->
+    <footer class="text-center text-lg-start">
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-xxl-start pt-5">
+                <!-- Grid row -->
+                <div class="row mt-4">
+                    <!-- Grid column -->
+                    <div class="col-xxl-3 col-md-6 mx-auto  pb-2 mb-4 element">
+                        <!-- Content -->
+                        <h3 class="text-uppercase fw-bold mb-4">
+                            Phụ Kiện Ngành Móng
+                        </h3>
+                        <table style="color: var(--white-color)!  important;">
+                            <tbody>
+                                <tr>
+                                    <td> <i data-feather="map-pin" class="p-2 footer-icon feather-46"></i></td>
+                                    <td><span class="text align-middle">Chi Nhánh Campuchia</span></td>
 
-                </tr>
-                <tr>
-                  <td> <i data-feather="map-pin" class="p-2 footer-icon feather-46"></i></td>
-                  <td><span class="text align-middle">Chi nhánh Việt Nam</span></td>
+                                </tr>
+                                <tr>
+                                    <td> <i data-feather="map-pin" class="p-2 footer-icon feather-46"></i></td>
+                                    <td><span class="text align-middle">Chi nhánh Việt Nam</span></td>
 
-                </tr>
-                <tr>
-                  <td> <i data-feather="map-pin" class="p-2 footer-icon feather-46"></i></td>
-                  <td><span class="text align-middle">Chi nhánh Indochina</span></td>
+                                </tr>
+                                <tr>
+                                    <td> <i data-feather="map-pin" class="p-2 footer-icon feather-46"></i></td>
+                                    <td><span class="text align-middle">Chi nhánh Indochina</span></td>
 
-                </tr>
-              </tbody>
-            </table>
+                                </tr>
+                            </tbody>
+                        </table>
 
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-xxl-2 col-md-6  mx-auto mb-4 element">
-            <!-- Links -->
-            <h4 class="text-uppercase fw-bold mb-4">
-              Chính sách
-            </h4>
+                    </div>
+                    <!-- Grid column -->
+                    <!-- Grid column -->
+                    <div class="col-xxl-2 col-md-6  mx-auto mb-4 element">
+                        <!-- Links -->
+                        <h4 class="text-uppercase fw-bold mb-4">
+                            Chính sách
+                        </h4>
 
             <p>
               <a href="#" class="text-reset">Chính sách giao nhận</a>
@@ -413,7 +487,22 @@
           </div>
           <!-- Grid column -->
 
+          <!-- Grid column -->
+          <div class="col-xxl-4  col-md-8 mx-auto mb-md-4 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Nhận ưu đãi</h6>
+            <form action="">
+              <input type="text" class="me-2 form-control input-box" placeholder="Nhập email">
+            </form>
 
+            <div class="row justify-content-end" style="margin-top: 15px;">
+              <div class="col col-md-8">
+                <div class=" d-grid">
+                  <a href="#" class="btn btn-primary">Đăng ký nhận ưu đãi</a>
+                </div>
+              </div>
+            </div>
+          </div>
           <!-- Grid column -->
         </div>
         <!-- Grid row -->
@@ -423,13 +512,13 @@
     <!-- Messenger Plugin chat Code -->
     <div id="fb-root"></div>
 
-    <!-- Your Plugin chat code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
+        <!-- Your Plugin chat code -->
+        <div id="fb-customer-chat" class="fb-customerchat">
+        </div>
 
 
-  </footer>
-  <!-- Footer -->
+    </footer>
+    <!-- Footer -->
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
@@ -441,7 +530,6 @@
   <script src="Nailtiephop/Nailtiephop.js"></script>
   <script src="Phukienganmong/phukienganmong.js"></script>
   <script src="mongtaytrong/mongtaytrong.js"></script>
-  <script src="sendForm.js"></script>
 
 </body>
 
