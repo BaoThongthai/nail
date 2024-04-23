@@ -30,7 +30,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 const imageNameWithoutExtension = imageName.split('.').slice(0, -1).join('.');
                 const imageUrl = folderPath + imageName;
                 const productHTML = `
-                    <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="col-md-3 col-sm-6 mb-4">
                         <div class="card">
                             <img src="${imageUrl}" class="card-img-top" alt="${imageName}">
                             <div class="card-body">
